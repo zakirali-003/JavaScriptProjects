@@ -1,12 +1,12 @@
 /* Spread Operator  denoted by (...)
 The spread operator allows you to expand an array or object into individual elements or properties.
 Key Uses:
-Copy arrays/objects → [...arr], {...obj}
-Merge arrays/objects → [...arr1, ...arr2], {...obj1, ...obj2}
-Pass array elements as function arguments → func(...arr)
-Insert items in arrays easily → [newItem, ...arr, lastItem]
-Destructure with rest → [first, ...rest] = arr
-React usage → setState([...state, newItem]) or <Component {...props} /> */
+1. Copy arrays/objects → [...arr], {...obj}
+2. Merge arrays/objects → [...arr1, ...arr2], {...obj1, ...obj2}
+3. Pass array elements as function arguments → func(...arr)
+4. Insert items in arrays easily → [newItem, ...arr, lastItem]
+5. Destructure with rest → [first, ...rest] = arr
+6. React usage → setState([...state, newItem]) or <Component {...props} /> */
 
 //1. Copy Arrays Easily
 let arr1 = [1, 2, 3, 4];
